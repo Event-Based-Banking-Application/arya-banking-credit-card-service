@@ -1,0 +1,187 @@
+[
+  {
+    "service": "Credit Card Service",
+    "issues": [
+      {
+        "task": "Card activation API",
+        "description": "Provide secure API endpoint for credit card activation with OTP verification and security checks.",
+        "labels": [
+          "credit-card",
+          "activation",
+          "api"
+        ]
+      },
+      {
+        "task": "Pin set/reset support",
+        "description": "Allow users to set initial PIN and reset PIN with OTP verification and security validations.",
+        "labels": [
+          "credit-card",
+          "pin-management",
+          "security"
+        ]
+      },
+      {
+        "task": "Card renewal and upgrade/downgrade",
+        "description": "Handle card renewal process and support card upgrades/downgrades based on usage patterns and eligibility.",
+        "labels": [
+          "credit-card",
+          "lifecycle",
+          "upgrade"
+        ]
+      },
+      {
+        "task": "Card-freezing via app",
+        "description": "Enable users to temporarily freeze/unfreeze their credit cards through mobile app with immediate effect.",
+        "labels": [
+          "credit-card",
+          "freeze",
+          "security"
+        ]
+      },
+      {
+        "task": "Minimum due vs total due logic",
+        "description": "Calculate minimum due amounts and total outstanding with interest calculations and payment allocation logic.",
+        "labels": [
+          "credit-card",
+          "billing",
+          "calculation"
+        ]
+      },
+      {
+        "task": "Auto-pay setup via bank account",
+        "description": "Support automatic payment setup with bank account linking and configurable payment amounts (minimum/full).",
+        "labels": [
+          "credit-card",
+          "auto-pay",
+          "automation"
+        ]
+      },
+      {
+        "task": "Grace period notifications",
+        "description": "Send timely notifications about payment due dates and grace periods to avoid late payment charges.",
+        "labels": [
+          "credit-card",
+          "notification",
+          "grace-period"
+        ]
+      },
+      {
+        "task": "Per-transaction limit control",
+        "description": "Allow users to set and modify transaction limits per day, per transaction, and per merchant category.",
+        "labels": [
+          "credit-card",
+          "limits",
+          "control"
+        ]
+      },
+      {
+        "task": "Blocking categories (international usage)",
+        "description": "Enable users to block specific merchant categories or international transactions for security purposes.",
+        "labels": [
+          "credit-card",
+          "blocking",
+          "security"
+        ]
+      },
+      {
+        "task": "Virtual card for online purchases",
+        "description": "Generate virtual credit card numbers for secure online transactions with limited validity and amount.",
+        "labels": [
+          "credit-card",
+          "virtual-card",
+          "security"
+        ]
+      },
+      {
+        "task": "Suspicious activity alerts",
+        "description": "Monitor and alert users about suspicious transactions based on spending patterns and location analysis.",
+        "labels": [
+          "credit-card",
+          "fraud-detection",
+          "alerts"
+        ]
+      },
+      {
+        "task": "Cashback/reward point engine",
+        "description": "Calculate and allocate cashback and reward points based on transaction categories and card tier benefits.",
+        "labels": [
+          "credit-card",
+          "rewards",
+          "cashback"
+        ]
+      },
+      {
+        "task": "Redemption marketplace integration",
+        "description": "Integrate with partner marketplace for reward point redemption including gift cards, travel bookings, and merchandise.",
+        "labels": [
+          "credit-card",
+          "redemption",
+          "marketplace"
+        ]
+      },
+      {
+        "task": "Partner merchant discounts",
+        "description": "Apply partner merchant discounts and special offers automatically during transactions with real-time validation.",
+        "labels": [
+          "credit-card",
+          "merchant-offers",
+          "discounts"
+        ]
+      },
+      {
+        "task": "Credit limit management",
+        "description": "Monitor credit utilization, provide limit increase recommendations, and process limit enhancement requests.",
+        "labels": [
+          "credit-card",
+          "credit-limit",
+          "management"
+        ]
+      },
+      {
+        "task": "Statement generation and delivery",
+        "description": "Generate monthly credit card statements and deliver via email/SMS with transaction details and payment information.",
+        "labels": [
+          "credit-card",
+          "statements",
+          "delivery"
+        ]
+      },
+      {
+        "task": "Interest and fee calculation",
+        "description": "Calculate interest on outstanding balances, late payment fees, and other charges according to card terms and conditions.",
+        "labels": [
+          "credit-card",
+          "interest",
+          "fees"
+        ]
+      },
+      {
+        "task": "Dispute management",
+        "description": "Handle transaction disputes with merchant communication, chargeback processing, and resolution tracking.",
+        "labels": [
+          "credit-card",
+          "disputes",
+          "chargeback"
+        ]
+      },
+      {
+        "task": "Emit CardTransaction events",
+        "description": "Publish real-time transaction events for fraud detection, analytics, and notification services.",
+        "labels": [
+          "credit-card",
+          "event",
+          "kafka"
+        ]
+      },
+      {
+        "task": "Credit utilization alerts",
+        "description": "Send alerts when credit utilization crosses predefined thresholds to help users manage their credit health.",
+        "labels": [
+          "credit-card",
+          "utilization",
+          "alerts"
+        ]
+      }
+    ]
+  }
+]
